@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb+srv://CompasSprint5:APIRest@cluster0.q6sty.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("URL_dbserver")
     .then((data)=>{
         console.log('MongoDB Connected');
     }).catch((err) => {
